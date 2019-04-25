@@ -8,4 +8,4 @@
 Quelques polyèdres sont disponibles dans ```./polys```.
 
 
-![dodecahedron_aug](./image_augmented_dodecahedron.jpg)
+![dodecahedron_aug](./img.jpg)
