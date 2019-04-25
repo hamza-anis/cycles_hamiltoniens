@@ -4,4 +4,4 @@
 
 - Exemple d'utilisation :  ```python3 main.py cube```
 
-Quelques polyèdres sont disponibles dans ```./polys```
+Quelques polyèdres sont disponibles dans ```./polys```.
