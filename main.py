@@ -44,7 +44,7 @@ class HamiltonSolver():
         for i in self.dic_pour_dessin:
             for k in self.dic_pour_dessin[i]:
                 f.write(str(i)+"--"+str(k)+"\n")
-        for i in range(max(self.dic_pour_dessin)+1):
+        for i in range(max(self.dic_pour_dessin)+2):
             f.write(str(i)+"[color=green,style=filled]\n")
         if aList:
             p = aList
