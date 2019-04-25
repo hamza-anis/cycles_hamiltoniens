@@ -2,4 +2,6 @@
 - Anis HEZAM
 
 
-- Exemple d'utilisation :  ``` python3 main.py cube ```
+- Exemple d'utilisation :  ```python3 main.py cube```
+
+Quelques polyèdres sont disponibles dans ```./polys```
