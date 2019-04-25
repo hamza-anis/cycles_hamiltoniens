@@ -44,7 +44,7 @@ class HamiltonSolver():
         for i in self.dic_pour_dessin:
             for k in self.dic_pour_dessin[i]:
                 f.write(str(i)+"--"+str(k)+"\n")
-        for i in range(max(self.dic_pour_dessin)):
+        for i in range(max(self.dic_pour_dessin)+1):
             f.write(str(i)+"[color=green,style=filled]\n")
         if aList:
             p = aList
@@ -54,7 +54,7 @@ class HamiltonSolver():
         f.close()
         os.system('neato -Tjpeg '+self.name.split('.')[0]+'.dot  -o  image_'+self.name.split('.')[0]+'.jpg')
         os.system('rm -f '+self.name.split('.')[0]+'.dot')
-        
+
 if __name__ == '__main__':
     name= sys.argv[1]+".off"
     k = HamiltonSolver(name)
