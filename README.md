@@ -1,5 +1,2 @@
 # Projet sur les cycles Hamiltoniens sur les polyèdres.
-##Projet scolaire en python
-
-
-{% highlight bash %}
+##  Projet scolaire en python
